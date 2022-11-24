@@ -25,5 +25,53 @@ Neste sistema, todas as rotas são protegidas. Usuários ADMIN podem ler e alter
   * Incluir infraestrutura de segurança ao projeto
   * Implementar as funcionalidades
 
+---
+
+### Spring Security
+
+* Interfaces que devem ser implementadas
+  * UserDetails
+  * UserDetailsService
+
+* Classe para configuração de segurança web
+  * WebSecurityConfigurerAdapter
+
+* Bean para efetuar autenticação
+  * AuthenticationManager
+
+---
+
+### Spring Cloud OAuth2
+* Classe de configuração para Authorization Server
+  * AuthorizationServerConfigurerAdapter
+
+* Classe de configuração para Resource Server
+  * ResourceServerConfigurerAdapter
+
+* Beans para implementar o padrão JWT
+  * JwtAccessTokenConverter
+  * JwtTokenStore
+
+---
+
+### Referências sobre Bean Validation
+
+https://beanvalidation.org/
+
+https://docs.jboss.org/hibernate/beanvalidation/spec/2.0/api/overview-summary.html
+
+https://docs.jboss.org/hibernate/beanvalidation/spec/2.0/api/javax/validation/constraints/package-summary.html
+
+https://www.baeldung.com/java-bean-validation-not-null-empty-blank
+
+https://www.baeldung.com/spring-custom-validation-message-source
+
+https://pt.stackoverflow.com/questions/133691/formatar-campo-cpf-ou-cnpj-usando-regex
+
+https://regexlib.com/
+
+https://regexr.com/
+
+---
 
 Bootcamp spring, dev superior.
